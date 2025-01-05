@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Movie Filter</h1>
+    <div class="filters">
+      <div class="filter">
+        <label for="genreFilter">Filter by Genre:</label>
+        <select id="genreFilter" style="border: 2px solid white;margin-top: 0px;font-size: larger;">
+          <option value="all">All</option>
+          <option value="Drama">Drama</option>
+          <option value="Action">Action</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Crime">Crime</option>
+        </select>
+      </div>  
+      <button id="resetFilters" type="button" style="padding:10px;border-radius: 15px;border: 2px solid white;">Apply filters</button>
+      <input id="rating" type="text" style="padding:10px;border-radius: 15px;border: 2px solid white;" placeholder="enter minimum rating" size="35px" c></input>
+      <button id="reset" type="button" style="padding:10px;border-radius: 15px;border: 2px solid white;">Reset filters</button>
+    </div>
+    <div class="container"></div>
+    <script src="movie.js"></script>
+  </body>
+</html>
